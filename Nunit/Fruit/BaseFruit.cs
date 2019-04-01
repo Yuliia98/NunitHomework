@@ -14,7 +14,8 @@ namespace Fruit
 
         public int Price { get; set; }
 
-        public BaseFruit(double weight, int amount, string name, string color, int price) {
+        public BaseFruit(double weight, int amount, string name, string color, int price)
+        {
             Weight = weight;
             Amount = amount;
             Name = name;
@@ -27,7 +28,7 @@ namespace Fruit
             {
                 throw new ArgumentOutOfRangeException(nameof(Price));
             }
-            else if (Weight<0) {
+            else if (Weight < 0) {
                 throw new ArgumentOutOfRangeException(nameof(Weight));
             }
             return Price * Weight;

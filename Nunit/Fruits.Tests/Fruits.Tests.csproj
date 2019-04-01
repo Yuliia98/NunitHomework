@@ -56,7 +56,6 @@
     <Compile Include="BaseFruitTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StoreActionsTests.cs" />
-    <Compile Include="StoreActionsTests.Homework.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
